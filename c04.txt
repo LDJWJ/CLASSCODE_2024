@@ -1,0 +1,4 @@
+gsutil ls $DATA_BUCKET
+
+# c06.py 끝나고
+!gsutil -m rm -rf $OUTDIR
